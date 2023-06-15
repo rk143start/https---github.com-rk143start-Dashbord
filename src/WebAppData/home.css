@@ -1,0 +1,146 @@
+.homData{ 
+    background-color: rgb(253, 47, 47);
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+   }
+
+   .homData.work{
+    height: 100%;
+    display: flex;
+    position: absolute;
+
+   }
+
+  
+
+   .homData .item{
+    width: 100vh;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 550px;
+    background-color: azure;
+    border-radius: 30px;
+    overflow: hidden;
+ 
+
+  }
+
+
+ .item .left{
+  display: flex;
+  height: 100%;
+  flex: 4;
+  overflow: hidden;
+
+ }
+
+ .left address{
+   font-size: 35px;
+   font-weight: 800;
+   margin-left: 1rem;
+   margin: 10px;
+   padding: 10px;
+
+
+ }
+
+ .item .right{
+  display: flex;
+  height: 100%;
+  flex: 8;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-right: 3px;
+  row-gap: 1rem;
+  grid-row: inherit;
+  background-color: aliceblue;
+   left: -500px;
+ }
+
+ .right img{
+  width: 100%;
+  height: 100%;
+  transform: rotate(-10deg);
+  overflow: hidden;
+  display: flex;
+
+ }
+
+ .leftarrow{
+  left:100px;
+  height: 100px;
+  position: absolute;
+  width: 65px;
+  border-radius: 50%;
+  padding: 15px;
+  transform: rotate(180deg);
+  cursor: pointer;
+  left: 0;
+  transition: all 1s ease-in-out;
+ }
+ 
+ .rightarrow{
+  right: 100px;
+  position: absolute;
+  height: 100px;
+  width: 65px;
+  border-radius: 50%; 
+  padding: 15px;
+  transform: rotate(180deg);
+  cursor: pointer; 
+  /* left: 0; */
+  transition: all 1s ease-in-out;
+ 
+ }
+
+ .leftarrow:hover{
+   background-color: lightblue;
+   box-shadow: 5px 4px black;
+
+
+ }
+ .rightarrow:hover{
+   background-color: lightblue;
+   box-shadow: 5px 4px black;
+
+ }
+ /* .right img{
+  width: 100%;
+  height: 100%;
+  transform: rotate(-10deg);
+  overflow: hidden;
+ }
+ 
+.leftarrow{
+   right: 100px;
+   height: 50px;
+   position: absolute;
+   padding: 15px;
+   margin-bottom: 100px;
+   margin-bottom: 50px;
+   background-color: aliceblue;
+  
+} */
+
+/* .rightarrow{
+
+   left: 100px; 
+   height: 50px;
+   position: absolute;
+   padding: 15px;
+   margin-bottom: 50px;
+   margin-bottom: 100px;
+   background-color: aliceblue;
+   
+} */

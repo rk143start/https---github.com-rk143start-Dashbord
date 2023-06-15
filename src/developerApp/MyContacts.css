@@ -1,0 +1,12 @@
+.MyDatas{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: darkseagreen;
+    color: black;
+     align-items: center;
+     justify-content: space-between;
+     padding-right: 60rem;
+     border-radius: 10px;
+     font-size: 25px;
+}

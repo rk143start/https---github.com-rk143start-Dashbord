@@ -1,0 +1,25 @@
+.app{
+    height: 100vh; 
+    
+}
+
+ .resolution{
+    width: 100%;
+    height: calc(100vh - 65px);
+    background-color: lightgrey;
+    top: 70px;
+    scroll-snap-type: y mandatory;
+    position: relative;
+    z-index: 2;
+    scrollbar-width: none;
+    
+ 
+ } 
+
+  .app .resolution{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    overflow-y: none;
+
+ }

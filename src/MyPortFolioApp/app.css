@@ -1,0 +1,17 @@
+    .list{
+        height: 110.7vh;
+    }
+
+ .allsection{
+    width: 110.7%;
+    height: calc(110.7vh - 70px);
+    background-color: lightpink;
+    position: relative;
+    top: 70px;
+     
+}
+
+*{
+    width: 110.7vw;
+    height: calc(110.7vh - 70px);
+}

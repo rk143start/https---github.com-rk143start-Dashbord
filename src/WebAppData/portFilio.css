@@ -1,0 +1,99 @@
+.portfolio{
+  background-color: rgb(249, 252, 249);
+  display: flex;
+  height: 120vh;
+  scroll-snap-align: start;
+  margin-bottom: 2rem;
+}
+
+.left1{
+  display: flex;
+  flex: 0.5;
+  /* background-color: blueviolet; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.left1 img{
+  width: 600px;
+  height: 900px;
+  /* background-color: lightgreen; */
+  border-radius: 10px;
+  
+}
+.Allright{
+  overflow: hidden;
+}
+
+.right1{
+  display: flex;
+  flex: 0.5;
+  background-color: #faeeee;
+  overflow: hidden;
+
+
+}
+
+.myInfos .heds{
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  color: red;
+  overflow: hidden;
+
+}
+
+.Allright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: none;
+
+}
+
+
+.infos label{
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: none;
+
+}
+
+.infos input{
+  padding: 20px 90px;
+  margin: 10px 30px;
+  text-align: center;
+  /* font-weight: 90; */
+  justify-content: center;
+  font-size: 27px;
+  border-radius: 10px;
+  list-style: none;
+  border-radius: none;
+  border-bottom: 1 px solid black;
+  border-collapse: collapse;
+}
+
+textarea{
+  font-size: 27px;
+}
+
+input:hover{
+  background-color: rgb(245, 244, 237);
+  color: black;
+}
+
+
+ button{
+  padding: 15px 80px;
+  margin: 20px 30px;
+  background-color: #d3f558;
+  color: black;
+  border-radius: 15px;
+
+}
+
+button:hover{
+  background-color: lavender;
+}

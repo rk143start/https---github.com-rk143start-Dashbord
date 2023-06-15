@@ -1,0 +1,105 @@
+.contactData{
+    background-color: lightblue;
+    height: 100vh;
+    scroll-snap-align: start;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+
+}
+
+.cotains{
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.cotains h2{
+    font-size: 40px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.cotains ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: darkcyan;
+    color: rgb(244, 218, 72);
+    border: all 1px solid;
+}
+
+
+.cotains li{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    background-repeat: repeat;
+    border: all 2px solid;
+
+}
+
+ .allimg1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 10px 30px;
+  padding: 10px;
+  border-radius: 30px;
+  
+}
+
+.allimg1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.activedata:hover{
+   color: rgb(251, 19, 174);
+   background-color: #15023a;
+   padding: 7px;
+   border-radius: 15px;
+   cursor: pointer;
+
+ 
+}
+
+.allimg1 .item1{
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+
+.allimg1 h2{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 1rem;
+   
+}
+
+
+  h2:hover{
+    color: beige;
+}
+
+ img h2:hover{
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   background-color: #f6f5f8;
+   color: #f7f5fc;
+   cursor: pointer;
+   border-radius: 50px;
+}
+

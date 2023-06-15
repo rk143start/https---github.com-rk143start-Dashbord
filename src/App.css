@@ -1,0 +1,36 @@
+.mainComp{
+    width: 365px;
+    height: 80vh;
+    top: 100px;
+    left: -60px;
+    background-color: lightgrey;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-between;
+    font-size: 35px;
+    text-decoration: none;
+    list-style: none;
+ 
+}
+
+.resolution{
+    width: 80vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+    overflow-y: none;
+}
+
+.sidebar{
+    margin-right: 20rem;
+    background-color: blueviolet;
+}
+
+.app{
+    height: 109vh;
+    overflow-y: hidden;
+    margin-left: 30rem;
+}

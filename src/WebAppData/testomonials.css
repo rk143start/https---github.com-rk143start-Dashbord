@@ -1,0 +1,58 @@
+.tostomonial{
+    background-color: lightpink;
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+   
+
+}
+
+.left{
+    flex: 0.7;
+    background-color: rgb(240, 48, 102);
+   overflow: hidden;
+   border-radius: 50%;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.left img{
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+    margin-left: 4rem;
+     height: 100%;
+   animation: arrowBlink 2s infinite;
+ 
+}
+
+.right{
+    background-color:  lightpink;
+    overflow: hidden;
+    flex: 0.5;
+    margin-top: 12rem;
+    margin-left: 3rem;
+    padding: 15px;
+   
+}
+
+.info h3{
+    margin: 10px 30px;
+    padding: 24px;
+    font-size: 35px;
+    font-weight: 600;
+   
+}
+
+.info h2{
+    margin: 15px 30px;
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+
+}

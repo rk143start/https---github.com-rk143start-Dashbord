@@ -1,0 +1,47 @@
+.MyDatas {     
+  width: 350px;
+  height: 100vh;
+  background-color: aliceblue;
+  position: fixed;
+  top: 4.3rem;
+  right: -350px;
+  scroll-behavior: smooth;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  transition: All 1s ease;
+}
+
+.LinksData li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 70vh;
+   font-size: 28px;
+   color: khaki;
+
+}
+
+.active1{
+  right: 0;
+  background-color: rgb(137, 194, 194);
+
+}
+
+.active1 li a:hover{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  
+}
+
+.LinksData a{
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
